@@ -1,0 +1,15 @@
+.user-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-input i{
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+.user-input span{
+    color :rgb(6, 6, 65);
+    font-size: 1.2rem;
+    margin-left: 10px;
+}

@@ -1,0 +1,52 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service input[type="text"],select, input[type="number"],input[type="url"],input[type="email"]{
+    height: 40px;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.service option{
+    font-size: 1rem;
+    color: black;
+}
+
+.service input[type="radio"]{
+    width: 25px;
+    height: 25px;
+}
+.service .operation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.service .operation span{
+    width: 100%;
+}
+.service .operation label{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(15, 15, 90);
+}
+
+.service hr{
+    color:rgb(15, 15, 90);
+    height: 2px;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.otp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.otp p{
+    font-size: 1rem;
+}
+.otp form{
+    align-items: center;
+    text-align: center;
+}
+.otp input{
+    width: 40px;
+    height: 40px;
+    margin:10px;
+    text-align: center;
+}
